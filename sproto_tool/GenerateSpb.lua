@@ -1,7 +1,7 @@
 local root = ".."
 
 package.path = "./lualib/?.lua;"
-package.cpath = "./luaclib/?.dll;"
+package.cpath = "./luaclib/?.so;"
 
 local sprotodump = require "sprotodump"
 
